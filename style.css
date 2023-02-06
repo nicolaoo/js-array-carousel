@@ -1,3 +1,32 @@
 img{
     width: 100%;
 }
+
+.picture {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+.carosello .carosello-chevron {
+    font-size: 60px;
+    position: absolute;
+}
+
+.carosello {
+    position: relative;
+}
+
+.arrow-left {
+    left: 50px;
+    top: 50%;
+    transform: translatey(-50%);
+}
+
+.arrow-right {
+    right: 50px;
+    top: 50%;
+    transform: translatey(-50%);
+}
